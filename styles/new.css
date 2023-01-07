@@ -96,8 +96,8 @@ section{
 
 .failures .failed-img{
     position: absolute;
-    width: 527.93px;
-height: 527.93px;
+    width: 569px;
+    height: 723.3px;
     left: 206px;
     top: 939px;
   
@@ -136,6 +136,61 @@ height: 527.93px;
 .failures .failure-text .failure-list{
     list-style: none;
     top: 1416px;
+    height: 162px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* learnings style  */
+
+.learnings{
+    height: 974px;
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    
+}
+
+.learnings .learning-img{
+    position: absolute;
+    height: 723.3px;
+    left: 230px;
+  top: 1792.3px;
+ background-color: #FFFFFF;
+ background-image: none;
+}
+
+.learnings .learning-text{
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 930px;
+    top: 1900px;
+}
+
+.learnings .learning-text .learning-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    height: 94px;
+    width: 288px;
+    color: #151414;
+    margin-bottom: 55px;
+}
+
+.learnings .learning-text .learning-description{
+    font-size: 20px;
+    line-height: 30px;
+    color: #444343;
+    top: 2155px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.learnings .learning-text .learning-list{
+    list-style: none;
+    top: 2269.3px;
+    left: 0;
     height: 162px;
     line-height: 26px;
     color: #444343;
