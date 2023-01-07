@@ -195,3 +195,73 @@ section{
     line-height: 26px;
     color: #444343;
 }
+
+/* plan section  styles */
+
+.plan{
+    position: absolute;
+    width: 1140px;
+    height: 500px;
+    left: 230px;
+    top: 2600px;
+}
+
+.plan .plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan .plan-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 90px;
+}
+
+/* contact section styles  */
+.contact{
+    position: absolute;
+    width: 1140px;
+    height: 500px;
+    left: 230px;
+    top: 3200px;
+}
+
+.contact .contact-img{
+    position: absolute;
+width: 1140px;
+height: 300px;
+
+
+background-image:  url(../images/watch.png),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%, transparent 100%);
+border-radius: 8px;
+}
+
+.contact .contact-text{
+    position: absolute;
+    width: 459px;
+height: 94px;
+left: 294px;
+    font-weight: 700;
+font-size: 40px;
+text-align: left;
+line-height: 47px;
+top:40px;
+left: 60px;
+color: #FFFFFF;
+z-index: 10;
+}
+
+.contact .btn-secondary{
+    position: absolute;
+width: 160px;
+height: 64px;
+left: 50px;
+top: 150px;
+
+}
+
+/* footer styles  */
